@@ -139,7 +139,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                                     </h2>
                                   </Link>
                                   <h3>
-                                    PKR {formatCompactNumber(e.price)}/Month
+                                    INR {formatCompactNumber(e.price)}/Month
                                   </h3>
                                   <p
                                     onClick={(event) => {
@@ -178,7 +178,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                             <div className="flex justify-between">
                               <h2>Total</h2>
                               <p>
-                                PKR {formatCompactNumber(e.quantity * e.price)}
+                                INR {formatCompactNumber(e.quantity * e.price)}
                               </p>
                             </div>
                           </div>
@@ -192,7 +192,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                   <div className="flex justify-between items-center">
                     <h2>Subtotal</h2>
                     <p className="total text-red-500">
-                      PKR {formatCompactNumber(subTotal)}
+                      INR {formatCompactNumber(subTotal)}
                     </p>
                   </div>
                   <Button
